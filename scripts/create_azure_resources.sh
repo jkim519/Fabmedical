@@ -28,13 +28,13 @@ if [[ -z "${MCW_GITHUB_URL}" ]]; then
 fi
 
 if [[ -z "${MCW_PRIMARY_LOCATION}" ]]; then
-    MCW_PRIMARY_LOCATION="northeurope"
-    MCW_PRIMARY_LOCATION_NAME="North Europe"
+    MCW_PRIMARY_LOCATION="westus2"
+    MCW_PRIMARY_LOCATION_NAME="West US 2"
 fi
 
 if [[ -z "${MCW_SECONDARY_LOCATION}" ]]; then
-    MCW_SECONDARY_LOCATION="westeurope"
-    MCW_SECONDARY_LOCATION_NAME="West Europe"
+    MCW_SECONDARY_LOCATION="westcentralus"
+    MCW_SECONDARY_LOCATION_NAME="West Central US"
 fi
 
 # Create SSH key
